@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Space Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./space-mono.woff2") format("woff2");
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Space Mono";
+}
+
+.header {
+    padding-block: 20px;
+    box-shadow: -2px 14px 32px -9px #5f70a1;
+    background-color: #0b132b;
+}
+
+.header h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.comments {
+    padding-block: 20px;
+    padding-inline: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.comments__users-list {
+    padding-block: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user li {
+    padding-block: 15px;
+    padding-inline: 10px;
+    background-color: #3a506b;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    box-shadow: rgba(50, 50, 54, 0.2) 0px 7px 29px 0px;
+
+    &:hover {
+        background-color: #ffffff;
+        border: 2px solid #3a506b;
+        color: #3a506b;
+    }
+}
+
+.user__btn {
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: #4f85c7;
+    border: 2px solid #ffff;
+    margin-top: 15px;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comments__posts-lists {
+    padding-block: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comments__posts-lists li {
+    padding-block: 15px;
+    padding-inline: 10px;
+    background-color: #3a506b;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    box-shadow: rgba(50, 50, 54, 0.2) 0px 7px 29px 0px;
+
+    &:hover {
+        background-color: #ffffff;
+        border: 2px solid #3a506b;
+        color: #3a506b;
+    }
+}
+
+.post__btn {
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: #4f85c7;
+    border: 2px solid #ffff;
+    margin-top: 15px;
+    color: #ffff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comments__list {
+    padding-block: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.comments__list li {
+    padding-block: 15px;
+    padding-inline: 10px;
+    background-color: #3a506b;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #ffff;
+    cursor: pointer;
+    transition: ease-in 0.2s;
+    box-shadow: rgba(50, 50, 54, 0.2) 0px 7px 29px 0px;
+
+    &:hover {
+        background-color: #ffffff;
+        border: 2px solid #3a506b;
+        color: #3a506b;
+    }
+}

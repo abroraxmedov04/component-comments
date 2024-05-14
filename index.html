@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            Comments Section
+        </h1>
+    </header>
+
+
+    <section class="comments">
+        <div class="comments__users">
+            <h2>
+                Users
+            </h2>
+
+            <ul class="comments__users-list user">
+            </ul>
+        </div>
+        <div class="comments__posts">
+            <h2>
+                Posts
+            </h2>
+
+            <ul class="comments__posts-lists posts">
+
+            </ul>
+        </div>
+        <div class="comments__post-comments">
+            <h2>Comments</h2>
+
+            <ul class="comments__list com">
+
+            </ul>
+        </div>
+    </section>
+
+
+    <template class="user-template">
+        <li class="user__item">
+            <span class="user__id">
+                1
+            </span>
+            <strong class="user__name">
+                Abrorbek
+            </strong>
+            <strong>
+                | Click to see posts
+            </strong>
+            <p class="user__email">
+                abrordevaxmedov@gmail.com
+            </p>
+            <p class="user__adress">
+                adress: <strong class="user-address-data">Kulas Light, Gwenborough</strong>
+            </p>
+
+            <p class="user__phone"> phone:
+                <a href="tel:+123456789">
+                    +998904291511
+                </a>
+            </p>
+            <button class="user__btn">see posts</button>
+        </li>
+    </template>
+
+    <template class="post-template">
+        <li class="posts__item">
+            <span class="post__id">
+                1
+            </span>
+
+            <p class="post__body">
+                quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut
+                ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto
+            </p>
+
+            <button class="post__btn">See Comments</button>
+        </li>
+    </template>
+
+
+    <template class="comments-fragmet">
+        <li class="com__item">
+            <span class="com__id">1</span>
+            <strong class="com__name">Abrorbek</strong>
+            <p class="com-desc">
+                laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam
+                autem quasi\nreiciendis et nam sapiente accusantium
+            </p>
+            <p class="com__email">
+                abrordevaxmedov@gmail.com
+            </p>
+        </li>
+    </template>
+    <script src="./main.js"></script>
+</body>
+
+</html>
